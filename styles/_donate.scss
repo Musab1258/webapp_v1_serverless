@@ -1,1 +1,56 @@
- 
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.clicked {
+  border-color: blue;
+}
+
+.hidden {
+  display: none!important;
+}
+
+#donation-page {
+  margin: 4%;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+button {
+  width: 12em;
+  height: 4em;
+  border-radius: 1em;
+  margin: 2em;
+  font-size: 1em;
+}
+
+button:disabled {
+  background: #ccc;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin: 1em;
+}
+
+input {
+  margin-top: 1em;
+  width: 20em;
+  height: 2.5em;
+  border-radius: 1em;
+}
+
+@media (min-width: 600px) {
+  #donation-page {
+    margin: 8%;
+    padding: 3%;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    justify-items: center;
+  }
+}
