@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="" content="">
+    <title>Devshelpdevs web app | Donations Page</title>
+    <link rel="stylesheet" href="./styles/main.css" title="" type="text/css" />
+  </head>
+  <body>
+    <div id="donation-page">
+      
+      <div id="donation-type">
+        <p>
+          Please fill out the information below to make a donation to devshelpdevs community.
+        </p>
+        
+        <p>Choose donation type</p>
+        
+        <button id="cash-donation" type="radio" name="donation">Cash Donation</button>
+        <button id="laptop-donation" type="radio" name="donation">Laptop Donation</button>
+        
+      </div>
+      
+      <div id="cash-donor" class="hidden">
+        <p>Choose payment option</p>
+        
+        <button id="bank-transfer" type="radio">Bank Transfer</button>
+        <button id="card-payment" type="radio">Pay with card</button>
+      </div>
+      
+      <div id="laptop-donor" class="hidden">
+        
+        <p>Please enter your details below</p>
+        
+        <form action="" method="get" accept-charset="utf-8">
+          
+          <label for="Email">Email<input type="email" name="" id="" value="" />
+          </label>
+          <label for="Full Name">Full Name
+          <input type="text" name="" id="" value="" />
+          </label>
+          <label for="Country">Country
+          <input type="text" name="" id="" value="" />
+          </label>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      
+      <div class="hidden">
+        <p>
+          We have sent the required information to your email, please check.
+        </p>
+      </div>
+      
+      <div id="payment-frequency" class="hidden">
+        
+        <button id="once-payment" type="radio">One time</button>
+         <button id="recurring-payment" type="radio">Recurring</button>
+        
+      </div>
+      
+      <div id="payment-data" class="hidden">
+        
+        <form action="" method="get" accept-charset="utf-8">
+          
+          <label for="Email">Email<input type="email" name="" id="" value="" />
+          </label>
+          <label for="Full Name">Full Name
+          <input type="text" name="" id="" value="" />
+          </label>
+          <label for="Country">Country
+          <input type="text" name="" id="" value="" />
+          </label>
+          <label for="Amount">Amount<input type="number" name="" id="" value="" />
+          </label>
+          <label for="Card Number">Card Number
+          <input type="number" name="" id="" value="" />
+          </label>
+          <label for="Expiry date">Expiry date
+          <input type="number" name="" id="" value="" />
+          </label>
+          <label for="cvv">cvv
+          <input type="number" name="" id="" value="" />
+          </label>
+          <button type="">Pay</button>
+        </form>
+        
+      </div>
+        
+    </div>
+    </div>
+    
+
+    <script src="./donate.js"></script>
+  </body>
+</html>
