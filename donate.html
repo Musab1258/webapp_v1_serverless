@@ -61,28 +61,32 @@
       
       <div id="payment-data" class="hidden">
         
-        <form action="" method="get" accept-charset="utf-8">
+        <form id="payment-form" action="" method="get" accept-charset="utf-8">
           
-          <label for="Email">Email<input type="email" name="" id="" value="" />
-          </label>
-          <label for="Full Name">Full Name
-          <input type="text" name="" id="" value="" />
-          </label>
-          <label for="Country">Country
-          <input type="text" name="" id="" value="" />
-          </label>
-          <label for="Amount">Amount<input type="number" name="" id="" value="" />
-          </label>
-          <label for="Card Number">Card Number
-          <input type="number" name="" id="" value="" />
-          </label>
-          <label for="Expiry date">Expiry date
-          <input type="number" name="" id="" value="" />
-          </label>
-          <label for="cvv">cvv
-          <input type="number" name="" id="" value="" />
-          </label>
-          <button type="">Pay</button>
+          <div id="userdata">
+            <label id="email" for="Email">Email<input type="email" name="" id="" value="" />
+            </label>
+            <label id="name" for="Full Name">Full Name
+            <input type="text" name="" id="" value="" />
+            </label>
+            <label id="country" for="Country">Country
+            <input type="text" name="" id="" value="" />
+            </label>
+            <label id="amount" for="Amount">Amount<input type="number" name="" id="" value="" />
+            </label>
+          </div>
+          <div id="card-data">
+            <label id="card-number" for="Card Number">Card Number
+            <input type="number" name="" id="" value="" />
+            </label>
+            <label id="expiry-date" for="Expiry date">Expiry date
+            <input type="number" name="" id="" value="" />
+            </label>
+            <label id="cvv" for="cvv">cvv
+            <input type="number" name="" id="" value="" />
+            </label>
+            <button type="">Pay</button>
+          </div>
         </form>
         
       </div>

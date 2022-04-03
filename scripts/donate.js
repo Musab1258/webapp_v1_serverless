@@ -1,3 +1,5 @@
+// querySelectors
+
 let laptopDonation = document.querySelector('#laptop-donation');
 
 let laptopDonor = document.querySelector('#laptop-donor');
